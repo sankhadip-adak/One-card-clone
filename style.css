@@ -1,0 +1,357 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(251, 255, 255);
+    position: fixed;
+}
+.navbar1{
+    height: 60px;
+    width: 90%;
+    background-color: rgb(251, 255, 255);
+    text-align: center;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    margin: auto; 
+    margin-right: 80px;
+}
+#image1{
+    height: 50px;
+    width: 70px;
+    margin-left: 225px;
+}
+.about{
+    color: rgb(12,22,27);
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    margin-top: 25px; 
+    margin-left: 200px;
+
+}
+a{
+    color: rgb(12,22,27);
+    text-decoration: none;
+    font-weight: 600;
+}
+button{
+    height: 30px;
+    width: 80px;
+    background-color:rgb(24,147,247);
+    color:rgb(255,255,255) ;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 18px;
+    margin-right: 50px;
+}
+.card-section{
+    height: 550px;
+    width: 75%;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+}
+.box1{
+    height: 500px;
+    width: 60%;
+    line-height: 2px;
+    margin-top: 60px;
+    margin-left: 65px;
+}
+.box2{
+    height: 500px;
+    width: 50%;
+    margin-left:0px;
+    margin-top: 60px;
+}
+#image3{
+    margin-top: 15px;
+}
+
+video{
+    height: 500px;
+    width: 100%;
+}
+#say{
+    font-size: 30px;
+}
+#one{
+    font-size: 60px;
+    color: rgb(11, 118, 172);
+}
+#card{
+    font-size: 22px;
+    color:  rgb(22, 138, 201) ;
+}
+#image2{
+    margin: 0px;
+    height: 90px;
+    width: 350px;
+}
+.credit-card{
+    font-size: 18px;
+    line-height: 7px;
+    color: rgb(44, 44, 44) ;
+}
+#image3{
+    height: 35px;
+    width:200px;
+}
+.fees-section{
+    height: 530px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    line-height: 8px;
+}
+#hidden-fees{
+    font-size: 64px; /* Adjust the font size as needed */
+    background-image: linear-gradient(to right, #2A83DD, #8EBA9B); /* Gradient background */
+    color: transparent; /* Make the actual text transparent */
+    display: inline-block; /* Make sure the container wraps the text */
+    background-clip: text; /* Clip the background to the text */
+    -webkit-background-clip: text; /* Fallback for older WebKit browsers */
+    line-height: 60px;
+    font-weight: 700;
+}
+.all-fees{
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    line-height: 15px;
+    padding-top: 30px;
+}
+.mobile-app{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    gap: 65px;
+    display: flex;
+    text-align: right;
+}
+.video{
+    height: 500px;
+    width: 40%;
+    margin-left:60px;
+}
+.video2{
+        height: 500px;
+        width: 40%;
+        margin-left:px;
+}
+.powerful{
+    font-size: 59px;
+    line-height: 0px;
+    
+}
+.powerful2{
+    font-size: 50px;
+    line-height: 0px;
+}
+.control{
+    font-size: 26px;
+    line-height:8px;
+    color: rgb(105,105,105);
+}
+.mobile-app2{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    gap: 50px;
+    margin-top: 80px;
+    display: flex;
+    text-align:left;
+}
+.metal{
+    margin-left: 90px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+#image5{
+    height: 50px;
+    width: 70px;
+}
+.button2{
+    height: 45px;
+    width: 140px;
+    font-size: 18px;
+    border: none;
+    background-color:rgb(24,147,247);
+    color:rgb(255,255,255) ;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.blog{
+    text-align: center;
+    font-size: 64px;
+    margin: 50px;
+}
+#blog2{
+    color:#0093f7;
+}
+#explore{
+    font-size: 20px;
+    color: black;
+    margin-left: 180px;
+}
+.explore-latest{
+    width: 100%;
+    margin: auto;
+    line-height: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.image6{
+height: 180px;
+width: 100%;
+border: 1px solid gray;
+border-radius: 20px;
+}
+.date{
+    color: rgb(105,105,105);
+}
+.instruction{
+    color: rgb(54, 53, 53);
+    font-size: 20px;
+}
+#view-button{
+    margin-top: 50px;
+    margin-left: 700px;
+}
+.one-card{
+    font-size: 28px;
+    line-height:3px;
+    color: rgb(105,105,105);
+    text-align: center;
+    
+}
+.partners{
+    background-color: rgb(242,242,242);    
+    
+}
+#image7{
+    height: 100px;
+    margin-left: 550px;
+    margin-top: 30px;
+
+}
+.matrix{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.images{
+    width: 350px; 
+    height: 150px; 
+     overflow: hidden; 
+    border-radius: 8px;
+}
+.images img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+}
+.images img:hover{
+    transform: scale(1.1);
+}
+.footer{
+    width: 100%;
+    background-color: rgb(12,22,27);
+    margin-top: 80px;
+}
+.one-card1{
+    height: 40px;
+    margin-left:700px;
+    margin-top: 50px;
+
+}
+.one-card2{
+    margin-left:540px;
+    margin-top: 18px;
+
+}
+.ears{
+    font-size: 35px;
+    color:rgb(0,147,247);
+    text-align: center;
+    margin-top: 15px;
+}
+.idea{
+    color: rgb(255,255,255);
+    font-size: 20px;
+    line-height: 4px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#apply{
+    height: 40px;
+    margin: 40px 650px;
+}
+.idea1{
+    color: rgb(255,255,255);
+    font-size: 20px;
+    text-align: center;
+}
+.follow{
+    line-height:0px;
+    background-color: blue;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.link{
+    
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    color:rgb(0,147,225);
+    line-height: 25px;
+    font-size: 18px;
+    list-style-type: none;
+    
+}
+.important{
+    color: white;
+    font-size: 22px;
+
+}
+.banking{
+    height: 200px;
+    width: 300px;
+    margin-left: 00px;
+}
+.footer-pic{
+         height: 150px;
+         width: 300px;
+         margin-left: 600px;
+         margin-top: 80px;
+         padding-bottom: 30px;
+}
+.copyright{
+    text-align: center;
+    color: white;
+    padding-bottom: 60px;
+    font-size: 18px;
+
+}
+
