@@ -41,6 +41,7 @@ a{
     color: rgb(12,22,27);
     text-decoration: none;
     font-weight: 600;
+    cursor: pointer
 }
 button{
     height: 30px;
@@ -52,6 +53,7 @@ button{
     border-radius: 5px;
     margin-top: 18px;
     margin-right: 50px;
+    cursor: pointer
 }
 .card-section{
     height: 550px;
